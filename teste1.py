@@ -1,3 +1,6 @@
+'''
+Sistema para chat com IA 
+'''
 import shutil
 import asyncio
 import argparse
