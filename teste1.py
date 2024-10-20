@@ -30,16 +30,21 @@ async def main():
   messages = []
 
   while True:
+    # inclui uma mensagem do usuário
     if content_in := input('>>> '):
       messages.append({'role': 'user', 'content': content_in})
 
       content_out = ''
       message = {'role': 'assistant', 'content': ''}
+      
+      # espera que a IA responda
       async for response in await client.chat(model='llama3.2', messages=messages, stream=True):
         if response['done']:
           messages.append(message)
 
         content = response['message']['content']
+
+        # imprime a resposta da IA
         print(content, end='', flush=True)
 
         content_out += content
