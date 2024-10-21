@@ -1,6 +1,6 @@
 import tkinter as tk
 from tkinter import scrolledtext
-import re
+# import re
 
 class Aplicacao(tk.Tk):
     def __init__(self, *args, **kwargs):
