@@ -13,6 +13,9 @@ desenhador.penup()
 
 # Função para desenhar os eixos
 def desenhar_eixos():
+    """_summary_
+    esta função desenha os eixos
+    """    
     desenhador.goto(-300, 0)
     desenhador.pendown()
     desenhador.goto(300, 0)
@@ -24,6 +27,12 @@ def desenhar_eixos():
 
 # Função para desenhar a equação
 def desenhar_equacao(equacao):
+    """_summary_
+    Esta função desenha a equação
+
+    Args:
+        equacao (_type_): _description_
+    """    
     desenhador.penup()
     desenhador.goto(-300, 0)
 
@@ -49,6 +58,9 @@ def fechar_programa():
 
 # Função principal
 def main():
+    """_summary_
+    Função principal
+    """    
     # Desenhar os eixos cartesianos
     desenhar_eixos()
 

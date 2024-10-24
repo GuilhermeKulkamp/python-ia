@@ -3,6 +3,14 @@ from tkinter import scrolledtext
 # import re
 
 class Aplicacao(tk.Tk):
+        '''
+        Aplicacao _summary_
+
+        _extended_summary_
+
+        Args:
+            tk (_type_): _description_
+        '''    
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
         self.title("Mensagens em Markdown")

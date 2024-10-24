@@ -1,0 +1,11 @@
+{
+    "docify.commentService.autoTranslationService": "Portuguese",
+    "docify.commentService.docstringFormat": "Google",
+    "docify.translateService.docstringFormat": "Google",
+    "docify.translateService.sourceLanguage": "Portuguese",
+    "docify.translateService.targetLanguage": "Portuguese",
+    "autoDocstring.includeExtendedSummary": true,
+    "autoDocstring.includeName": true,
+    "autoDocstring.quoteStyle": "'''",
+    "autoDocstring.startOnNewLine": true
+}
